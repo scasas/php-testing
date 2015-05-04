@@ -1,5 +1,6 @@
 <?php
 
+# Función para obtener la edad de acuerdo a una fecha conocida
 function getAge($birthday) {
     $birth = strtotime($birthday);
     $now = strtotime('now');
